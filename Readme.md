@@ -6,7 +6,7 @@ Just add some default capistrano tasks
 
 ```ruby
   # Gemfile
-  gem 'zfben_capistrano', require: nil
+  gem 'zfben_capistrano', require: false
 
   # config/deloy.rb
   require 'zfben_capistrano'
