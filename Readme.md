@@ -4,10 +4,10 @@ Just add some default capistrano tasks
 
 ## Install
 
-Gemfile
-
+```ruby
+  # Gemfile
   gem 'zfben_capistrano', require: nil
 
-config/deloy.rb
-
+  # config/deloy.rb
   require 'zfben_capistrano'
+```
